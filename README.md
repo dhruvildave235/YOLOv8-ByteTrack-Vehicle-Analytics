@@ -1,10 +1,10 @@
-# 🚗 YOLOv8-ByteTrack Vehicle Analytics System
+#  YOLOv8-ByteTrack Vehicle Analytics System
 
 An intelligent AI-powered system for real-time vehicle detection, tracking, and counting using deep learning and computer vision.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project leverages **YOLOv8 (Ultralytics)** for object detection and **ByteTrack** for multi-object tracking to build a real-time vehicle analytics system.
 
@@ -12,7 +12,7 @@ It processes video streams, tracks vehicles with unique IDs, and counts them whe
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 
 * 🚘 Real-time vehicle detection using YOLOv8
 * 🔄 Multi-object tracking with ByteTrack
@@ -24,7 +24,7 @@ It processes video streams, tracks vehicles with unique IDs, and counts them whe
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 | Category        | Technology                  |
 | --------------- | --------------------------- |
@@ -47,7 +47,7 @@ It processes video streams, tracks vehicles with unique IDs, and counts them whe
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ```bash
 pip install ultralytics
@@ -56,7 +56,7 @@ pip install opencv-python
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ```bash
 python vehicleCounting.py
@@ -71,7 +71,7 @@ python vehicleCounting.py
 
 ---
 
-## 📊 Output Features
+##  Output Features
 
 * Bounding boxes around vehicles
 * Vehicle class labels
@@ -80,7 +80,7 @@ python vehicleCounting.py
 
 ---
 
-## 🔬 Core Logic
+##  Core Logic
 
 * Uses **YOLOv8 large model (`yolo11l.pt`)** for high accuracy
 * Tracking handled via `model.track()` (ByteTrack)
